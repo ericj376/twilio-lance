@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/ericj376/twilio-lance/issues"
   },
-  "homepage": "https://github.com/ericj376/twilio-lance#readme"
+  "homepage": "https://github.com/ericj376/twilio-lance#readme",
+  "dependencies": {
+    "twilio": "^2.9.1"
+  }
 }
