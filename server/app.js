@@ -2,7 +2,7 @@
 var express = require('express');
 var app = new express.Router();
 
-app.get('/sms', function getCb(req, res) {
+app.post('/sms', function getCb(req, res) {
   console.log(req.body);
 
   var twiml = [
